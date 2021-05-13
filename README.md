@@ -3,6 +3,7 @@
 - `gimp` - Image editor
 - `transmission-gtk` - BitTorrent client
 - `zathura`, `zathura-djvu`, `zathura-pdf-mupdf`, `zathura-cb` - Document reader
+- `feh` - Image viewer
 - `ttf-iosevka` - Fonts
 
 ## Brightness
