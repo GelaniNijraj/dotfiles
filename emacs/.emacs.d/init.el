@@ -14,8 +14,6 @@
 
 (defvar myPackages
   '(better-defaults                 ;; Set up some better Emacs defaults
-;    material-theme                  ;; Theme
-					;    vscode-icon
     all-the-icons
     magit
     treemacs
