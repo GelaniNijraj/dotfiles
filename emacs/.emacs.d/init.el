@@ -21,6 +21,7 @@
     use-package
     doom-modeline
     doom-themes
+    helm
     flycheck                        ;; On the fly syntax checking
     elpy
     )
@@ -54,6 +55,10 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(default ((t (:family "Iosevka Term" :foundry "UKWN" :slant normal :weight normal :height 98 :width normal)))))
+
+(use-package helm
+  :ensure t
+  :init (helm-mode 1))
 
 (use-package doom-modeline
   :ensure t
